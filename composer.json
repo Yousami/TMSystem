@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "darkaonline/l5-swagger": "^9.0",
         "dcblogdev/laravel-module-generator": "v2.0.5",
         "filament/filament": "4.0",
         "laravel/framework": "^12.1",
