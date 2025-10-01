@@ -19,7 +19,12 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
-        
+
+        // ابتدا نقش‌ها را ایجاد کن
         $this->call(RoleSeeder::class);
+        
+        // سپس کاربران را ایجاد کن
+        $this->call(UserSeeder::class);
+        
     }
 }
